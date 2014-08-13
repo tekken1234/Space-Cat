@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842529AA199B2289007B09F4 /* LDHmachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 842529A9199B2289007B09F4 /* LDHmachineNode.m */; };
+		844C97CF199B33F600E3ACC0 /* LDHspaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C97CE199B33F600E3ACC0 /* LDHspaceCatNode.m */; };
+		844C97D2199B495800E3ACC0 /* LDHprojectTileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C97D1199B495800E3ACC0 /* LDHprojectTileNode.m */; };
+		844C97D6199B62C800E3ACC0 /* LDHutil.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C97D5199B62C800E3ACC0 /* LDHutil.m */; };
 		847B6572199B09BB00BEA853 /* LDHTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 847B6571199B09BB00BEA853 /* LDHTitleScene.m */; };
 		847B6575199B0C5900BEA853 /* LDHgameplayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 847B6574199B0C5900BEA853 /* LDHgameplayScene.m */; };
+		84DEF286199B19EC003EC1D8 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 84DEF285199B19EC003EC1D8 /* Sprites.atlas */; };
 		84FD4C16199AFD6300C25BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD4C15199AFD6300C25BBD /* Foundation.framework */; };
 		84FD4C18199AFD6300C25BBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD4C17199AFD6300C25BBD /* CoreGraphics.framework */; };
 		84FD4C1A199AFD6300C25BBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FD4C19199AFD6300C25BBD /* UIKit.framework */; };
@@ -37,10 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842529A8199B2289007B09F4 /* LDHmachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHmachineNode.h; path = ../LDHmachineNode.h; sourceTree = "<group>"; };
+		842529A9199B2289007B09F4 /* LDHmachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHmachineNode.m; path = ../LDHmachineNode.m; sourceTree = "<group>"; };
+		844C97CD199B33F600E3ACC0 /* LDHspaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHspaceCatNode.h; path = ../LDHspaceCatNode.h; sourceTree = "<group>"; };
+		844C97CE199B33F600E3ACC0 /* LDHspaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHspaceCatNode.m; path = ../LDHspaceCatNode.m; sourceTree = "<group>"; };
+		844C97D0199B495800E3ACC0 /* LDHprojectTileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHprojectTileNode.h; path = ../LDHprojectTileNode.h; sourceTree = "<group>"; };
+		844C97D1199B495800E3ACC0 /* LDHprojectTileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHprojectTileNode.m; path = ../LDHprojectTileNode.m; sourceTree = "<group>"; };
+		844C97D4199B62C800E3ACC0 /* LDHutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHutil.h; sourceTree = "<group>"; };
+		844C97D5199B62C800E3ACC0 /* LDHutil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHutil.m; sourceTree = "<group>"; };
 		847B6570199B09BB00BEA853 /* LDHTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHTitleScene.h; path = ../LDHTitleScene.h; sourceTree = "<group>"; };
 		847B6571199B09BB00BEA853 /* LDHTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHTitleScene.m; path = ../LDHTitleScene.m; sourceTree = "<group>"; };
 		847B6573199B0C5900BEA853 /* LDHgameplayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHgameplayScene.h; path = ../LDHgameplayScene.h; sourceTree = "<group>"; };
 		847B6574199B0C5900BEA853 /* LDHgameplayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHgameplayScene.m; path = ../LDHgameplayScene.m; sourceTree = "<group>"; };
+		84DEF285199B19EC003EC1D8 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		84FD4C12199AFD6300C25BBD /* SpaceCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FD4C15199AFD6300C25BBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84FD4C17199AFD6300C25BBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,11 +136,20 @@
 		84FD4C1D199AFD6300C25BBD /* SpaceCat */ = {
 			isa = PBXGroup;
 			children = (
+				844C97CD199B33F600E3ACC0 /* LDHspaceCatNode.h */,
+				844C97CE199B33F600E3ACC0 /* LDHspaceCatNode.m */,
+				844C97D0199B495800E3ACC0 /* LDHprojectTileNode.h */,
+				844C97D1199B495800E3ACC0 /* LDHprojectTileNode.m */,
+				842529A8199B2289007B09F4 /* LDHmachineNode.h */,
+				842529A9199B2289007B09F4 /* LDHmachineNode.m */,
 				847B6573199B0C5900BEA853 /* LDHgameplayScene.h */,
 				847B6574199B0C5900BEA853 /* LDHgameplayScene.m */,
 				847B6570199B09BB00BEA853 /* LDHTitleScene.h */,
 				847B6571199B09BB00BEA853 /* LDHTitleScene.m */,
+				844C97D4199B62C800E3ACC0 /* LDHutil.h */,
+				844C97D5199B62C800E3ACC0 /* LDHutil.m */,
 				84FD4C34199AFD6300C25BBD /* Images.xcassets */,
+				84DEF285199B19EC003EC1D8 /* Sprites.atlas */,
 				84FD4C1E199AFD6300C25BBD /* Supporting Files */,
 			);
 			path = SpaceCat;
@@ -176,6 +199,7 @@
 				84FD4C0E199AFD6300C25BBD /* Sources */,
 				84FD4C0F199AFD6300C25BBD /* Frameworks */,
 				84FD4C10199AFD6300C25BBD /* Resources */,
+				844C97CC199B300400E3ACC0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -245,6 +269,7 @@
 			files = (
 				84FD4C22199AFD6300C25BBD /* InfoPlist.strings in Resources */,
 				84FD4C35199AFD6300C25BBD /* Images.xcassets in Resources */,
+				84DEF286199B19EC003EC1D8 /* Sprites.atlas in Resources */,
 				84FD4C2B199AFD6300C25BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +284,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		844C97CC199B300400E3ACC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84FD4C0E199AFD6300C25BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -266,8 +307,12 @@
 			files = (
 				847B6575199B0C5900BEA853 /* LDHgameplayScene.m in Sources */,
 				84FD4C24199AFD6300C25BBD /* main.m in Sources */,
+				844C97D2199B495800E3ACC0 /* LDHprojectTileNode.m in Sources */,
 				84FD4C2E199AFD6300C25BBD /* LDHViewController.m in Sources */,
+				844C97CF199B33F600E3ACC0 /* LDHspaceCatNode.m in Sources */,
 				84FD4C28199AFD6300C25BBD /* LDHAppDelegate.m in Sources */,
+				842529AA199B2289007B09F4 /* LDHmachineNode.m in Sources */,
+				844C97D6199B62C800E3ACC0 /* LDHutil.m in Sources */,
 				847B6572199B09BB00BEA853 /* LDHTitleScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +379,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -372,6 +418,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -393,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpaceCat/SpaceCat-Prefix.pch";
 				INFOPLIST_FILE = "SpaceCat/SpaceCat-Info.plist";
@@ -407,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpaceCat/SpaceCat-Prefix.pch";
 				INFOPLIST_FILE = "SpaceCat/SpaceCat-Info.plist";

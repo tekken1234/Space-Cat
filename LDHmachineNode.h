@@ -10,4 +10,8 @@
 
 @interface LDHmachineNode : SKSpriteNode
 
++ (instancetype) machineAtPosition:(CGPoint)position;
+
+-(void)performTap;
+
 @end

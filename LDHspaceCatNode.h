@@ -8,6 +8,10 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface LDHspaceCat : SKSpriteNode
+@interface LDHspaceCatNode : SKSpriteNode
+
++ (instancetype) spaceCatAtPosition:(CGPoint)position;
+
+-(void)performTap;
 
 @end

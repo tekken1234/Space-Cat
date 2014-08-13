@@ -10,4 +10,10 @@
 
 @interface LDHprojectTileNode : SKSpriteNode
 
++ (instancetype) projectTileAtPosition:(CGPoint)position;
+
+- (void) moveTowardsPosition:(CGPoint)position;
+
+
+
 @end

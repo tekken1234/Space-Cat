@@ -1,15 +1,13 @@
 //
-//  LDHgameplayScene.h
+//  LDHutil.m
 //  SpaceCat
 //
 //  Created by admin on 14/8/13.
 //  Copyright (c) 2014年 YEHKUO. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
+#import "LDHutil.h"
 
-@interface LDHgameplayScene : SKScene
-
-
+@implementation LDHutil
 
 @end
